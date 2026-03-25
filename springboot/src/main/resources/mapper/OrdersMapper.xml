@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.OrdersMapper">
+
+    <select id="selectAll" resultType="com.example.entity.Orders">
+        select orders.*,
+        goods.name as goodsName,
+        goods.img as goodsImg,
+        user.name as userName,
+        address.consignee as consignee,
+        address.phone as phone,
+        address.province as province,
+        address.city as city,
+        address.district as district,
+        address.detail as addressDetail,
+        <!-- 新增：完整的地址信息字符串 -->
+        CONCAT(address.consignee, ' ', address.phone, ' ', address.province, address.city, address.district, address.detail) as addressInfo,
+        <!-- 价格相关字段 -->
+        goods.price as price,
+        (goods.price * orders.num) as total,
+        goods.specials as specials,
+        goods.unit as unit
+        from orders
+        left join goods on orders.goods_id = goods.id
+        left join user on orders.user_id = user.id
+        left join address on orders.address_id = address.id
+        <where>
+            <if test="orderNo != null and orderNo != ''"> and order_no like concat('%', #{orderNo}, '%')</if>
+            <if test="goodsName != null and goodsName != ''"> and goods.name like concat('%', #{goodsName}, '%')</if>
+            <if test="userName != null and userName != ''"> and user.name like concat('%', #{userName}, '%')</if>
+            <if test="status != null and status != ''"> and status = #{status}</if>
+            <!-- 添加用户ID过滤 -->
+            <if test="userId != null"> and orders.user_id = #{userId}</if>
+        </where>
+        order by orders.id desc
+    </select>
+
+    <insert id="insert" parameterType="com.example.entity.Orders" useGeneratedKeys="true" keyProperty="id">
+        insert into orders(order_no, goods_id, num, user_id, status, time, address_id)
+        values (#{orderNo}, #{goodsId}, #{num}, #{userId}, #{status}, #{time}, #{addressId})
+    </insert>
+
+    <update id="updateById" parameterType="com.example.entity.Orders">
+        update orders set
+                          order_no = #{orderNo},
+                          goods_id = #{goodsId},
+                          num = #{num},
+                          user_id = #{userId},
+                          status = #{status},
+                          time = #{time},
+                          address_id = #{addressId}
+        where id = #{id}
+    </update>
+
+    <select id="selectById" resultType="com.example.entity.Orders">
+        select orders.*,
+        goods.name as goodsName,
+        goods.img as goodsImg,
+        user.name as userName,
+        address.consignee as consignee,
+        address.phone as phone,
+        address.province as province,
+        address.city as city,
+        address.district as district,
+        address.detail as addressDetail,
+        <!-- 新增：完整的地址信息字符串 -->
+        CONCAT(address.consignee, ' ', address.phone, ' ', address.province, address.city, address.district, address.detail) as addressInfo,
+        <!-- 价格相关字段 -->
+        goods.price as price,
+        (goods.price * orders.num) as total,
+        goods.specials as specials,
+        goods.unit as unit
+        from orders
+        left join goods on orders.goods_id = goods.id
+        left join user on orders.user_id = user.id
+        left join address on orders.address_id = address.id
+        where orders.id = #{id}
+    </select>
+
+</mapper>
