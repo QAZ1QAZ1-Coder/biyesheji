@@ -1,0 +1,121 @@
+
+.container.data-v-0be17cc6 {
+	min-height: 100vh;
+	background-color: #f8f9fa;
+	padding: 20rpx;
+}
+
+/* 用户卡片样式 */
+.user-card.data-v-0be17cc6 {
+	background-color: #ffffff;
+	border-radius: 16rpx;
+	margin-bottom: 24rpx;
+	padding: 32rpx 24rpx;
+	box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.card-content.data-v-0be17cc6 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.user-info-section.data-v-0be17cc6 {
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+.user-avatar.data-v-0be17cc6 {
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 24rpx;
+	background-color: #f0f0f0;
+}
+.user-avatar image.data-v-0be17cc6 {
+	width: 100%;
+	height: 100%;
+}
+.user-info.data-v-0be17cc6 {
+	flex: 1;
+}
+.username.data-v-0be17cc6 {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #333333;
+	display: block;
+	margin-bottom: 8rpx;
+}
+.phone.data-v-0be17cc6 {
+	font-size: 26rpx;
+	color: #666666;
+	display: block;
+	margin-bottom: 8rpx;
+}
+.welcome.data-v-0be17cc6 {
+	font-size: 24rpx;
+	color: #999999;
+}
+.edit-icon.data-v-0be17cc6 {
+	color: #999;
+}
+
+/* 功能菜单样式 - 降低高度 */
+.menu-section.data-v-0be17cc6 {
+	background: white;
+	border-radius: 16rpx;
+	overflow: hidden;
+	margin-bottom: 30rpx;
+	box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.menu-item.data-v-0be17cc6 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 24rpx 20rpx;
+	height: 44px;
+	background-color: #ffffff;
+}
+.menu-left.data-v-0be17cc6 {
+	display: flex;
+	align-items: center;
+}
+.menu-icon.data-v-0be17cc6 {
+	margin-right: 20rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40rpx;
+}
+.menu-text.data-v-0be17cc6 {
+	font-size: 30rpx;
+	color: #333333;
+}
+.divider.data-v-0be17cc6 {
+	height: 1rpx;
+	background-color: #f0f0f0;
+	margin-left: 64rpx; /* icon宽度 + margin-right */
+	margin-right: 20rpx;
+}
+
+/* 退出登录按钮 - 调整大小 */
+.logout-section.data-v-0be17cc6 {
+	padding: 20rpx 0;
+}
+.logout-btn.data-v-0be17cc6 {
+	background-color: #ff4757;
+	color: white;
+	border: none;
+	border-radius: 30rpx;
+	padding: 20rpx;
+	font-size: 28rpx;
+	font-weight: 500;
+	height: 90rpx;
+	line-height: 50rpx;
+	transition: all 0.3s;
+}
+.logout-btn.data-v-0be17cc6:active {
+	background-color: #e84151;
+	-webkit-transform: scale(0.98);
+	        transform: scale(0.98);
+}
+

@@ -1,0 +1,1081 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 样式保持不变 */
+.container.data-v-5bfcc2a0 {
+	min-height: 100vh;
+	background-color: #f8f9fa;
+}
+.scroll-view.data-v-5bfcc2a0 {
+	height: calc(100vh - 44px);
+	padding: 20rpx;
+}
+/* 头像区域 */
+.avatar-section.data-v-5bfcc2a0 {
+	background-color: #ffffff;
+	border-radius: 16rpx;
+	padding: 40rpx 0;
+	margin-bottom: 30rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.avatar-wrapper.data-v-5bfcc2a0 {
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20rpx;
+}
+.avatar-image.data-v-5bfcc2a0 {
+	width: 100%;
+	height: 100%;
+}
+.avatar-overlay.data-v-5bfcc2a0 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+.avatar-wrapper:active .avatar-overlay.data-v-5bfcc2a0 {
+	opacity: 1;
+}
+.username.data-v-5bfcc2a0 {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 8rpx;
+}
+.avatar-hint.data-v-5bfcc2a0 {
+	font-size: 24rpx;
+	color: #999999;
+}
+/* 表单区域 */
+.form-section.data-v-5bfcc2a0 {
+	background-color: #ffffff;
+	border-radius: 16rpx;
+	padding: 0 30rpx;
+	margin-bottom: 30rpx;
+	box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.form-item.data-v-5bfcc2a0 {
+	padding: 30rpx 0;
+	border-bottom: 1rpx solid #f0f0f0;
+}
+.form-item.data-v-5bfcc2a0:last-child {
+	border-bottom: none;
+}
+.form-label.data-v-5bfcc2a0 {
+	font-size: 28rpx;
+	color: #333333;
+	margin-bottom: 20rpx;
+	display: block;
+}
+.form-input.data-v-5bfcc2a0 {
+	height: 80rpx;
+	font-size: 28rpx;
+	color: #333333;
+	border: 1rpx solid #e0e0e0;
+	border-radius: 8rpx;
+	padding: 0 20rpx;
+	background-color: #fafafa;
+}
+/* 性别选项 */
+.gender-options.data-v-5bfcc2a0 {
+	display: flex;
+	justify-content: space-between;
+}
+.gender-option.data-v-5bfcc2a0 {
+	flex: 1;
+	height: 80rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1rpx solid #e0e0e0;
+	border-radius: 8rpx;
+	margin-right: 20rpx;
+	background-color: #fafafa;
+}
+.gender-option.data-v-5bfcc2a0:last-child {
+	margin-right: 0;
+}
+.gender-option text.data-v-5bfcc2a0 {
+	font-size: 28rpx;
+	color: #666666;
+}
+.gender-selected.data-v-5bfcc2a0 {
+	background-color: #4CD964;
+	border-color: #4CD964;
+}
+.gender-selected text.data-v-5bfcc2a0 {
+	color: #ffffff;
+}
+/* 保存按钮 */
+.save-section.data-v-5bfcc2a0 {
+	padding: 20rpx 0;
+}
+.save-btn.data-v-5bfcc2a0 {
+	background-color: #4CD964;
+	color: white;
+	border: none;
+	border-radius: 40rpx;
+	padding: 20rpx;
+	font-size: 30rpx;
+	font-weight: 500;
+	height: 90rpx;
+	line-height: 50rpx;
+	transition: all 0.3s;
+}
+.save-btn-disabled.data-v-5bfcc2a0 {
+	background-color: #cccccc !important;
+	opacity: 0.7;
+}
+.save-btn.data-v-5bfcc2a0:active:not(.save-btn-disabled) {
+	background-color: #3ac753;
+	-webkit-transform: scale(0.98);
+	        transform: scale(0.98);
+}
+/* 头像选择器 */
+.avatar-picker.data-v-5bfcc2a0 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: flex-end;
+	z-index: 999;
+}
+.picker-content.data-v-5bfcc2a0 {
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 20rpx 20rpx 0 0;
+	padding-bottom: env(safe-area-inset-bottom);
+}
+.picker-title.data-v-5bfcc2a0 {
+	text-align: center;
+	padding: 30rpx 0;
+	font-size: 32rpx;
+	color: #333333;
+	font-weight: bold;
+	border-bottom: 1rpx solid #f0f0f0;
+}
+.picker-options.data-v-5bfcc2a0 {
+	padding: 20rpx 0;
+}
+.picker-option.data-v-5bfcc2a0 {
+	padding: 30rpx 40rpx;
+	display: flex;
+	align-items: center;
+}
+.picker-option text.data-v-5bfcc2a0 {
+	font-size: 28rpx;
+	color: #333333;
+	margin-left: 20rpx;
+}
+.picker-option.data-v-5bfcc2a0:active {
+	background-color: #f5f5f5;
+}
+.picker-cancel.data-v-5bfcc2a0 {
+	padding: 30rpx 40rpx;
+	text-align: center;
+	border-top: 1rpx solid #f0f0f0;
+	margin-top: 10rpx;
+}
+.picker-cancel text.data-v-5bfcc2a0 {
+	font-size: 28rpx;
+	color: #666666;
+}
+.picker-cancel.data-v-5bfcc2a0:active {
+	background-color: #f5f5f5;
+}
+
